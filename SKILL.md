@@ -30,6 +30,10 @@ Ask:
 - **Iteration duration** — e.g. 6 weeks, 2 weeks
 - **How many iterations to show** — typically 6-8 for a rolling view
 
+If the user references iteration numbers without dates (e.g. "iterations 17 and 18"), offer to look them up on Confluence. Iteration planning pages often include date ranges in the title. Search for the iteration number to extract the dates.
+
+If Confluence isn't accessible, ask the user for the start and end dates. Once you have one iteration's dates and the cadence (e.g. 6 weeks), you can extrapolate adjacent iterations.
+
 Update the CSS `grid-template-columns` and JS `cols` variable to match.
 
 ### Step 3: Capacity Model
